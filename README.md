@@ -12,7 +12,8 @@
    pipenv install
    ```
 
-3. Set up the devices with `tinytuya` using the wizard:
+3. Setup your account on the Tuya Developer Platform and add your devices. You can follow the instructions [here](./docs/Tuya.IoT.API.Setup.v2.pdf).
+4. Set up the devices with `tinytuya` using the wizard:
 
    ```bash
    python -m tinytuya wizard
@@ -20,7 +21,7 @@
 
    Follow the instructions to configure your smart devices.
 
-4. Save all the `json` files generated from the wizard (such as device configuration files) in the `./data` directory.
+5. Save all the `json` files generated from the wizard (such as device configuration files) in the `./data` directory.
 
 ### Usage
 

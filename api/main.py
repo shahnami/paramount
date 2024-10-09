@@ -1,7 +1,6 @@
 import tinytuya
 import json
 
-# Device Control Class (Assumes the existence of your Tuya API class)
 class TuyaDeviceController:
     def __init__(self, client_id, secret):
         with open('./data/devices.json', 'r') as f:

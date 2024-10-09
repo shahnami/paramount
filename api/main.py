@@ -16,7 +16,7 @@ class TuyaDeviceController:
         print(self.devices)
 
     def control_device(self, device_index, force_state=None):
-        print(f"Control device {device_index}, Force state: {force_state}")
+        print(f"Control device {device_index + 1}, Force state: {force_state}")
         if not (0 <= device_index < len(self.devices)):
             print(f"Invalid device index: {device_index}")
             return
